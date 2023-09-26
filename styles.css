@@ -1,2 +1,11 @@
-
 /* Your CSS Code here. */
+
+		.form-heading {
+            text-align: center;
+        }
+        /* Exclamation mark in a circle */
+        .form-group.invalid .invalid-feedback::before {
+            content: '⚠️';
+            display: inline-block;
+            margin-right: 6px;
+        }
